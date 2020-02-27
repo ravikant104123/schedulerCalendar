@@ -1,0 +1,47 @@
+.week-calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12.57%, 1fr));
+    grid-gap: 10px 8px;
+    padding: 0 10px 10px 10px;
+}
+
+.working-week-calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16.32%, 1fr));
+    grid-gap: 10px 8px;
+    padding: 0 10px 10px 10px;
+}
+
+.scheduler-week-header {
+    padding: 5px 2px 0 8px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.weekly-date-cell {
+    color: #666666;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.16);
+    opacity: 1;
+}
+
+.working-weekly-date-cell {
+    color: #666666;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.16);
+    opacity: 1;
+}
+
+.weekly-date-cell,
+.working-weekly-date-cell {
+    font-size: 16px;
+    background: #FFFFFF;
+}
+
+.weekly-date-cell:hover,
+.working-weekly-date-cell:hover {
+    background: #D9E4EA;
+    cursor: pointer;
+}
+
+.highlight-background {
+    background: #D9E4EA;
+}

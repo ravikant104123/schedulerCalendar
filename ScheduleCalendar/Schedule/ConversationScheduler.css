@@ -1,0 +1,23 @@
+.schedule-setting-popover {
+    width: 210px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #000000;
+    padding: 10px 10px
+}
+
+.schedule-setting-popover button {
+    margin-bottom: 10px;
+}
+
+.setting-popover-content {
+    margin-bottom: 10px;
+}
+
+.setting-toggle-button button:first-child {
+	border-radius: 4px 0px 0px 4px;
+}
+
+.setting-toggle-button button:last-child {
+	border-radius: 0px 4px 4px 0px;
+}

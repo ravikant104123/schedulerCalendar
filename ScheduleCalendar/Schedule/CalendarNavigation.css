@@ -1,0 +1,54 @@
+.calendar-navigation-container {
+    width: 100%;
+    padding: 20px 0 5px 0;
+}
+
+.calendar-navigation-calendar-wrapper .working-calendar-navigation-grid .week-day-header-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17.32%, 1fr));
+    justify-items: center;
+    padding: 10px 0;
+}
+
+.calendar-navigation-calendar-wrapper .calendar-navigation-grid .week-day-header-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(13.57%, 1fr));
+    justify-items: center;
+    padding: 10px 0;
+}
+
+.calendar-navigation-calendar-wrapper .week-day-header {
+    color: #000000;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.calendar-navigation-calendar-wrapper .working-calendar-navigation-grid .date-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17.32%, 1fr));
+}
+
+.calendar-navigation-calendar-wrapper .calendar-navigation-grid .date-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(13.57%, 1fr));
+}
+
+.calendar-navigation-container .calendar{
+    background: #F5F5F5;
+}
+
+.calendar-navigation-calendar-wrapper {
+    margin: 0 20px 20px 20px;
+}
+
+.calendar-navigation-container .calendar-navigation-calendar-wrapper:last-child {
+    margin-bottom: 15px;
+}
+
+.calendar-navigation-calendar-wrapper .month-title-bar {
+    height: 38px;
+    font-size: 14px;
+    color: #000000;
+    background: #E2E2E2;
+    text-transform: capitalize;
+}
